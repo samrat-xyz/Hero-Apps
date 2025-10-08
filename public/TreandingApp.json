@@ -1,0 +1,146 @@
+[
+  {
+    "image": "https://play-lh.googleusercontent.com/qv0YGc4m5WI9WvCL-P185CrLxBoKt5ChnvTk-1jZI1rVlWjMQV71emL08UPaP9Xtkg",
+    "title": "ChatConnect",
+    "companyName": "TechHive Ltd.",
+    "id": 1,
+    "description": "ChatConnect is a next-generation communication app designed to make your conversations faster, smarter, and more secure. Enjoy instant messaging, voice and video calls, and seamless media sharing across devices. The app’s AI-driven reply system learns your habits and helps you respond quicker. ChatConnect uses advanced end-to-end encryption to ensure your privacy is always protected. Group chats, community servers, and cloud synchronization make it perfect for both personal and professional communication. Stay connected with your people, anywhere, anytime.",
+    "size": 58,
+    "reviews": 12000,
+    "ratingAvg": 4.6,
+    "downloads": "5M",
+    "ratings": [
+      { "name": "1 star", "count": 450 },
+      { "name": "2 star", "count": 670 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 3800 },
+      { "name": "5 star", "count": 7880 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/O34WRsvUg-W7gubFlEf4TI-_rKyB3HmMQ9B7I-Fycid8k5i1otw19ESVei4lF4Ijig",
+    "title": "PhotoMaster Pro",
+    "companyName": "PixelWorks Studio",
+    "id": 2,
+    "description": "PhotoMaster Pro is your personal photo studio packed into one app. Capture, edit, and transform your images using professional-grade tools powered by AI. From one-tap enhancements to advanced filters and background blur, PhotoMaster Pro gives you full creative control. The app supports RAW photo editing, color correction, object remover, and HDR adjustments. Whether you are a beginner or a professional photographer, this app helps you craft stunning visuals effortlessly.",
+    "size": 92,
+    "reviews": 8900,
+    "ratingAvg": 4.3,
+    "downloads": "3M",
+    "ratings": [
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 750 },
+      { "name": "3 star", "count": 1600 },
+      { "name": "4 star", "count": 2700 },
+      { "name": "5 star", "count": 3250 }
+    ]
+  },
+  {
+    "image": "https://gdm-catalog-fmapi-prod.imgix.net/ProductLogo/9fed6031-9c5f-4906-9297-58872a943f67.png?w=128&h=128&fit=max&dpr=3&auto=format&q=50",
+    "title": "TaskFlow",
+    "companyName": "ZenSoft Technologies",
+    "id": 3,
+    "description": "TaskFlow makes task management effortless with an intuitive interface and powerful features. Organize projects, assign tasks, and monitor deadlines in one place. TaskFlow offers calendar integration, progress charts, and team chat for efficient collaboration. Whether you’re managing personal goals or corporate projects, TaskFlow helps you stay productive, focused, and ahead of schedule. Offline sync ensures that your work continues even without the internet.",
+    "size": 45,
+    "reviews": 6400,
+    "ratingAvg": 4.5,
+    "downloads": "2.2M",
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 950 },
+      { "name": "4 star", "count": 2100 },
+      { "name": "5 star", "count": 2550 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/XbyPYUvaiayhseYJkxprcSRwnRCm3wtlEQq9SW7eQ-aCaYCbqi3NSweLJgzK_i1u2EY",
+    "title": "FitTrack",
+    "companyName": "ActiveEdge Corp.",
+    "id": 4,
+    "description": "FitTrack keeps you motivated on your health journey with intelligent tracking and real-time insights. Count your steps, monitor heart rate, log meals, and get workout recommendations. It integrates with wearables like smartwatches and tracks over 50 types of activities. FitTrack uses AI to provide daily fitness tips and progress analytics, ensuring you achieve your goals effectively. Whether you’re walking, running, or cycling, FitTrack has you covered.",
+    "size": 80,
+    "reviews": 15700,
+    "ratingAvg": 4.7,
+    "downloads": "7.8M",
+    "ratings": [
+      { "name": "1 star", "count": 700 },
+      { "name": "2 star", "count": 850 },
+      { "name": "3 star", "count": 1100 },
+      { "name": "4 star", "count": 3700 },
+      { "name": "5 star", "count": 9350 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgcbD6OYAMvI5AU2S7v37vj6tkxzzniLgX_5zCq2tRNjm2GuVPVLRckkK8WFZMH6o2P2g&usqp=CAU",
+    "title": "EduMate",
+    "companyName": "LearnWorld Inc.",
+    "id": 5,
+    "description": "EduMate turns your smartphone into a virtual classroom. Learn from expert instructors, join live interactive sessions, and explore thousands of online courses. It covers topics like coding, design, marketing, and exam preparation. EduMate also provides AI-driven study recommendations, gamified learning, and personalized progress tracking. Whether you’re a student, a professional, or a lifelong learner, EduMate empowers you to grow your skills anytime, anywhere.",
+    "size": 72,
+    "reviews": 9800,
+    "ratingAvg": 4.4,
+    "downloads": "4.1M",
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 700 },
+      { "name": "3 star", "count": 1600 },
+      { "name": "4 star", "count": 3200 },
+      { "name": "5 star", "count": 3800 }
+    ]
+  },
+  {
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e4/a3/23/e4a32306-18c9-0091-f222-b4d1e255daa6/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg",
+    "title": "MusicWave",
+    "companyName": "SoundSphere Media",
+    "id": 6,
+    "description": "MusicWave gives you access to millions of songs, albums, and podcasts in high-quality audio. Its AI recommendation engine curates playlists tailored to your mood and activity. Enjoy seamless offline playback, live radio, and synchronized lyrics. MusicWave’s minimalist interface and adaptive equalizer provide the ultimate listening experience. It’s music made personal, immersive, and ad-free.",
+    "size": 115,
+    "reviews": 22000,
+    "ratingAvg": 4.8,
+    "downloads": "12M",
+    "ratings": [
+      { "name": "1 star", "count": 900 },
+      { "name": "2 star", "count": 1200 },
+      { "name": "3 star", "count": 1700 },
+      { "name": "4 star", "count": 5000 },
+      { "name": "5 star", "count": 13200 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0mRSShPD2t_5JRHcTUhI62lvVZAIwl-Jrxw&s",
+    "title": "ShopSmart",
+    "companyName": "eMart Global",
+    "id": 7,
+    "description": "ShopSmart brings a smarter way to shop online. Explore thousands of products across electronics, fashion, home essentials, and groceries — all in one app. Get exclusive discounts, instant delivery updates, and AI-powered price comparisons. The app offers multiple payment options, 24/7 customer support, and a rewards system that saves you money every time you shop.",
+    "size": 68,
+    "reviews": 17500,
+    "ratingAvg": 4.2,
+    "downloads": "6.8M",
+    "ratings": [
+      { "name": "1 star", "count": 1100 },
+      { "name": "2 star", "count": 1450 },
+      { "name": "3 star", "count": 2800 },
+      { "name": "4 star", "count": 4700 },
+      { "name": "5 star", "count": 5450 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/oHAuZz2vLAxztLt7q7Pw5LglHZexSC-8BmpC5BUic3AHf_Wglt6kLpUgpuomIgbEyg",
+    "title": "GameBoost",
+    "companyName": "TurboPlay Studio",
+    "id": 8,
+    "description": "GameBoost enhances your gaming experience by optimizing system performance in real time. It clears background processes, frees up RAM, and boosts frame rates for smoother gameplay. With one tap, GameBoost ensures your phone is ready for maximum gaming speed. It also includes temperature monitoring and battery-saving features to protect your device during long sessions.",
+    "size": 36,
+    "reviews": 5300,
+    "ratingAvg": 4.1,
+    "downloads": "1.9M",
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 1000 },
+      { "name": "4 star", "count": 1600 },
+      { "name": "5 star", "count": 1700 }
+    ]
+  }
+]

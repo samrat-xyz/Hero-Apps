@@ -1,0 +1,506 @@
+[
+  {
+    "image": "https://play-lh.googleusercontent.com/qv0YGc4m5WI9WvCL-P185CrLxBoKt5ChnvTk-1jZI1rVlWjMQV71emL08UPaP9Xtkg",
+    "title": "ChatConnect",
+    "companyName": "TechHive Ltd.",
+    "id": 1,
+    "description": "ChatConnect is a next-generation communication app designed to make your conversations faster, smarter, and more secure. Enjoy instant messaging, voice and video calls, and seamless media sharing across devices. The app’s AI-driven reply system learns your habits and helps you respond quicker. ChatConnect uses advanced end-to-end encryption to ensure your privacy is always protected. Group chats, community servers, and cloud synchronization make it perfect for both personal and professional communication. Stay connected with your people, anywhere, anytime.",
+    "size": 58,
+    "reviews": 12000,
+    "ratingAvg": 4.6,
+    "downloads": "5M",
+    "ratings": [
+      { "name": "1 star", "count": 450 },
+      { "name": "2 star", "count": 670 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 3800 },
+      { "name": "5 star", "count": 7880 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/O34WRsvUg-W7gubFlEf4TI-_rKyB3HmMQ9B7I-Fycid8k5i1otw19ESVei4lF4Ijig",
+    "title": "PhotoMaster Pro",
+    "companyName": "PixelWorks Studio",
+    "id": 2,
+    "description": "PhotoMaster Pro is your personal photo studio packed into one app. Capture, edit, and transform your images using professional-grade tools powered by AI. From one-tap enhancements to advanced filters and background blur, PhotoMaster Pro gives you full creative control. The app supports RAW photo editing, color correction, object remover, and HDR adjustments. Whether you are a beginner or a professional photographer, this app helps you craft stunning visuals effortlessly.",
+    "size": 92,
+    "reviews": 8900,
+    "ratingAvg": 4.3,
+    "downloads": "3M",
+    "ratings": [
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 750 },
+      { "name": "3 star", "count": 1600 },
+      { "name": "4 star", "count": 2700 },
+      { "name": "5 star", "count": 3250 }
+    ]
+  },
+  {
+    "image": "https://gdm-catalog-fmapi-prod.imgix.net/ProductLogo/9fed6031-9c5f-4906-9297-58872a943f67.png?w=128&h=128&fit=max&dpr=3&auto=format&q=50",
+    "title": "TaskFlow",
+    "companyName": "ZenSoft Technologies",
+    "id": 3,
+    "description": "TaskFlow makes task management effortless with an intuitive interface and powerful features. Organize projects, assign tasks, and monitor deadlines in one place. TaskFlow offers calendar integration, progress charts, and team chat for efficient collaboration. Whether you’re managing personal goals or corporate projects, TaskFlow helps you stay productive, focused, and ahead of schedule. Offline sync ensures that your work continues even without the internet.",
+    "size": 45,
+    "reviews": 6400,
+    "ratingAvg": 4.5,
+    "downloads": "2.2M",
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 950 },
+      { "name": "4 star", "count": 2100 },
+      { "name": "5 star", "count": 2550 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/XbyPYUvaiayhseYJkxprcSRwnRCm3wtlEQq9SW7eQ-aCaYCbqi3NSweLJgzK_i1u2EY",
+    "title": "FitTrack",
+    "companyName": "ActiveEdge Corp.",
+    "id": 4,
+    "description": "FitTrack keeps you motivated on your health journey with intelligent tracking and real-time insights. Count your steps, monitor heart rate, log meals, and get workout recommendations. It integrates with wearables like smartwatches and tracks over 50 types of activities. FitTrack uses AI to provide daily fitness tips and progress analytics, ensuring you achieve your goals effectively. Whether you’re walking, running, or cycling, FitTrack has you covered.",
+    "size": 80,
+    "reviews": 15700,
+    "ratingAvg": 4.7,
+    "downloads": "7.8M",
+    "ratings": [
+      { "name": "1 star", "count": 700 },
+      { "name": "2 star", "count": 850 },
+      { "name": "3 star", "count": 1100 },
+      { "name": "4 star", "count": 3700 },
+      { "name": "5 star", "count": 9350 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgcbD6OYAMvI5AU2S7v37vj6tkxzzniLgX_5zCq2tRNjm2GuVPVLRckkK8WFZMH6o2P2g&usqp=CAU",
+    "title": "EduMate",
+    "companyName": "LearnWorld Inc.",
+    "id": 5,
+    "description": "EduMate turns your smartphone into a virtual classroom. Learn from expert instructors, join live interactive sessions, and explore thousands of online courses. It covers topics like coding, design, marketing, and exam preparation. EduMate also provides AI-driven study recommendations, gamified learning, and personalized progress tracking. Whether you’re a student, a professional, or a lifelong learner, EduMate empowers you to grow your skills anytime, anywhere.",
+    "size": 72,
+    "reviews": 9800,
+    "ratingAvg": 4.4,
+    "downloads": "4.1M",
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 700 },
+      { "name": "3 star", "count": 1600 },
+      { "name": "4 star", "count": 3200 },
+      { "name": "5 star", "count": 3800 }
+    ]
+  },
+  {
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e4/a3/23/e4a32306-18c9-0091-f222-b4d1e255daa6/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg",
+    "title": "MusicWave",
+    "companyName": "SoundSphere Media",
+    "id": 6,
+    "description": "MusicWave gives you access to millions of songs, albums, and podcasts in high-quality audio. Its AI recommendation engine curates playlists tailored to your mood and activity. Enjoy seamless offline playback, live radio, and synchronized lyrics. MusicWave’s minimalist interface and adaptive equalizer provide the ultimate listening experience. It’s music made personal, immersive, and ad-free.",
+    "size": 115,
+    "reviews": 22000,
+    "ratingAvg": 4.8,
+    "downloads": "12M",
+    "ratings": [
+      { "name": "1 star", "count": 900 },
+      { "name": "2 star", "count": 1200 },
+      { "name": "3 star", "count": 1700 },
+      { "name": "4 star", "count": 5000 },
+      { "name": "5 star", "count": 13200 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0mRSShPD2t_5JRHcTUhI62lvVZAIwl-Jrxw&s",
+    "title": "ShopSmart",
+    "companyName": "eMart Global",
+    "id": 7,
+    "description": "ShopSmart brings a smarter way to shop online. Explore thousands of products across electronics, fashion, home essentials, and groceries — all in one app. Get exclusive discounts, instant delivery updates, and AI-powered price comparisons. The app offers multiple payment options, 24/7 customer support, and a rewards system that saves you money every time you shop.",
+    "size": 68,
+    "reviews": 17500,
+    "ratingAvg": 4.2,
+    "downloads": "6.8M",
+    "ratings": [
+      { "name": "1 star", "count": 1100 },
+      { "name": "2 star", "count": 1450 },
+      { "name": "3 star", "count": 2800 },
+      { "name": "4 star", "count": 4700 },
+      { "name": "5 star", "count": 5450 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/oHAuZz2vLAxztLt7q7Pw5LglHZexSC-8BmpC5BUic3AHf_Wglt6kLpUgpuomIgbEyg",
+    "title": "GameBoost",
+    "companyName": "TurboPlay Studio",
+    "id": 8,
+    "description": "GameBoost enhances your gaming experience by optimizing system performance in real time. It clears background processes, frees up RAM, and boosts frame rates for smoother gameplay. With one tap, GameBoost ensures your phone is ready for maximum gaming speed. It also includes temperature monitoring and battery-saving features to protect your device during long sessions.",
+    "size": 36,
+    "reviews": 5300,
+    "ratingAvg": 4.1,
+    "downloads": "1.9M",
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 1000 },
+      { "name": "4 star", "count": 1600 },
+      { "name": "5 star", "count": 1700 }
+    ]
+  },
+  {
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/ce/c1/bf/cec1bf49-1fe6-893d-5e71-92ed0434e2af/AppIcon-1x_U007emarketing-0-10-0-85-220-0.png/512x512bb.jpg",
+    "title": "WeatherPro",
+    "companyName": "SkyNet Labs",
+    "id": 9,
+    "description": "WeatherPro delivers precise, real-time weather forecasts for your location. Get detailed temperature, humidity, air quality, and wind data. Its radar maps and storm alerts help you plan your day safely. With dynamic visuals, hourly updates, and smart widgets, WeatherPro keeps you informed no matter where you are.",
+    "size": 50,
+    "reviews": 8900,
+    "ratingAvg": 4.5,
+    "downloads": 2400000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 950 },
+      { "name": "4 star", "count": 2700 },
+      { "name": "5 star", "count": 4350 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQp5DzIlYRrhvAW2IdWJqsVJ6j0r6XbbHOf1w&s",
+    "title": "FinancePlus",
+    "companyName": "MoneyMind Solutions",
+    "id": 10,
+    "description": "FinancePlus helps you take control of your money. Track your income, expenses, and budgets automatically. Set goals, get insights, and receive reminders to pay bills on time. It connects securely with your bank to provide real-time financial analytics. Visual reports make understanding your money easier than ever.",
+    "size": 64,
+    "reviews": 11000,
+    "ratingAvg": 4.6,
+    "downloads": 3600000,
+    "ratings": [
+      { "name": "1 star", "count": 550 },
+      { "name": "2 star", "count": 700 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 3000 },
+      { "name": "5 star", "count": 5550 }
+    ]
+  },
+  {
+    "image": "https://img.freepik.com/premium-vector/travelease-logo_878566-824.jpg",
+    "title": "TravelEase",
+    "companyName": "GoGlobal Pvt Ltd",
+    "id": 11,
+    "description": "TravelEase simplifies trip planning and booking. Find the best flights, hotels, and rental cars all in one place. Get personalized travel suggestions, live maps, and instant booking confirmations. The app offers 24/7 customer support, currency converter, and weather updates for your destinations. Travel smarter and stress-free with TravelEase.",
+    "size": 78,
+    "reviews": 9600,
+    "ratingAvg": 4.3,
+    "downloads": 4400000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 1400 },
+      { "name": "4 star", "count": 2800 },
+      { "name": "5 star", "count": 4200 }
+    ]
+  },
+  {
+    "image": "https://s.cafebazaar.ir/images/icons/com.bluescanner.docscanner-7993e441-94f9-496f-8219-8135ade69aa1_512x512.png?x-img=v1/resize,h_256,w_256,lossless_false/optimize",
+    "title": "DocScanner",
+    "companyName": "SmartScan Systems",
+    "id": 12,
+    "description": "DocScanner turns your phone into a portable scanner. Scan documents, receipts, notes, and IDs instantly. The app’s advanced OCR technology extracts text accurately for editing or sharing. You can create high-quality PDFs, organize them in folders, and sync across devices. DocScanner is perfect for students, professionals, and anyone who wants paperless productivity.",
+    "size": 34,
+    "reviews": 8700,
+    "ratingAvg": 4.5,
+    "downloads": 2900000,
+    "ratings": [
+      { "name": "1 star", "count": 350 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 2700 },
+      { "name": "5 star", "count": 4250 }
+    ]
+  },
+  {
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0e/0f/9a/0e0f9afe-b4e8-0f73-476a-23dec6aa61f8/AppIcon-0-0-1x_U007emarketing-0-0-0-8-0-0-sRGB-85-220.png/1200x630wa.png",
+    "title": "NoteZen",
+    "companyName": "CreativeBytes",
+    "id": 13,
+    "description": "NoteZen is a simple yet powerful note-taking app designed for focus and creativity. Write, draw, or record your thoughts effortlessly. It supports markdown formatting, tags, and cross-device sync. With offline support and automatic backups, your ideas are always safe. Perfect for writers, students, and professionals who love organized thinking.",
+    "size": 29,
+    "reviews": 5100,
+    "ratingAvg": 4.4,
+    "downloads": 1300000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 600 },
+      { "name": "4 star", "count": 1700 },
+      { "name": "5 star", "count": 2300 }
+    ]
+  },
+  {
+    "image": "https://miro.medium.com/v2/1*OBTp8ZcoIOtDC2jHnQzg7g.jpeg",
+    "title": "CryptoVault",
+    "companyName": "BlockVerse Labs",
+    "id": 14,
+    "description": "CryptoVault provides a secure and intuitive platform for managing cryptocurrencies. Track your portfolio, monitor market trends, and trade safely with built-in encryption. It supports Bitcoin, Ethereum, and 200+ altcoins. Get real-time price alerts, news updates, and data visualization tools. With biometric security and cold storage compatibility, your assets remain protected at all times.",
+    "size": 70,
+    "reviews": 8800,
+    "ratingAvg": 4.6,
+    "downloads": 3400000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 700 },
+      { "name": "3 star", "count": 1000 },
+      { "name": "4 star", "count": 2500 },
+      { "name": "5 star", "count": 4200 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/WGQPFLqOSIrL9hnrcsllHCn1leP9GVRE23pRuQYtRk-D6u8lsCU4EHfBtHTJRa8fQ5uh",
+    "title": "SleepWell",
+    "companyName": "CalmNest Ltd.",
+    "id": 15,
+    "description": "SleepWell helps you relax and improve sleep quality with guided meditations, relaxing sounds, and sleep tracking analytics. Choose from soothing soundscapes like rain, ocean, or forest to calm your mind. The app also includes breathing exercises, bedtime reminders, and a gentle wake-up alarm. SleepWell’s smart algorithm learns your patterns and adjusts your bedtime plan accordingly to ensure a peaceful night’s rest.",
+    "size": 55,
+    "reviews": 9900,
+    "ratingAvg": 4.7,
+    "downloads": 6200000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 2900 },
+      { "name": "5 star", "count": 5300 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/z7QKFNBFvcwIZXtqrK7lnyyp7nzpPGCF7gCg0FyZ81PXXivycC_4vLqzwQ1wLACZ7Jg",
+    "title": "Foodify",
+    "companyName": "FlavorTech Pvt Ltd.",
+    "id": 16,
+    "description": "Foodify is your ultimate food delivery and restaurant discovery app. Browse thousands of local restaurants, view menus with photos, and order your favorite meals in just a few taps. Track your delivery live, get exclusive discounts, and earn points with every order. Foodify also offers personalized recommendations based on your taste preferences and previous orders. From street food to fine dining, enjoy the best food experiences wherever you are.",
+    "size": 84,
+    "reviews": 14500,
+    "ratingAvg": 4.4,
+    "downloads": 7800000,
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 1000 },
+      { "name": "3 star", "count": 1900 },
+      { "name": "4 star", "count": 4000 },
+      { "name": "5 star", "count": 6800 }
+    ]
+  },
+  {
+    "image": "https://hips.hearstapps.com/bpc.h-cdn.co/assets/17/28/clean-my-android.jpg?crop=1xw:1.0xh;center,top",
+    "title": "CleanMate",
+    "companyName": "SystemCare Solutions",
+    "id": 17,
+    "description": "CleanMate keeps your phone fast and clutter-free. It automatically clears junk files, optimizes storage, and cools down the CPU during heavy usage. The app also features battery saver mode, privacy cleaner, and RAM booster for peak performance. With one-tap optimization, CleanMate ensures your phone stays smooth, secure, and efficient every day.",
+    "size": 39,
+    "reviews": 17400,
+    "ratingAvg": 4.3,
+    "downloads": 10500000,
+    "ratings": [
+      { "name": "1 star", "count": 1200 },
+      { "name": "2 star", "count": 1600 },
+      { "name": "3 star", "count": 2500 },
+      { "name": "4 star", "count": 4800 },
+      { "name": "5 star", "count": 7300 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIjovpliYdL5Txhxu3gzXl2oxVVnAzxg9kjHTzk0mMkWfueY3NupVqzkOl0ZgXY_zf4pk&usqp=CAU",
+    "title": "StreamZone",
+    "companyName": "VisionStream Media",
+    "id": 18,
+    "description": "StreamZone brings your favorite movies, TV shows, and documentaries in one sleek platform. Watch in HD or 4K with adaptive streaming technology. The app offers a huge content library, offline downloads, and personalized watchlists. StreamZone also includes parental control, subtitles in multiple languages, and AI-based recommendations for a better viewing experience.",
+    "size": 120,
+    "reviews": 23800,
+    "ratingAvg": 4.7,
+    "downloads": 15000000,
+    "ratings": [
+      { "name": "1 star", "count": 1200 },
+      { "name": "2 star", "count": 1400 },
+      { "name": "3 star", "count": 2600 },
+      { "name": "4 star", "count": 5200 },
+      { "name": "5 star", "count": 13400 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTEBB-vSUIKhzLOfPXyQ6c7epbYmWXeuGQ6OE7-OSPsEy7Fb9eH8JLXwHtWcTDZksIN2Y&usqp=CAU",
+    "title": "LearnLang",
+    "companyName": "EduNova Labs",
+    "id": 19,
+    "description": "LearnLang makes learning new languages fun and interactive. With over 20 languages available, including Spanish, French, Japanese, and German, you can master vocabulary, grammar, and pronunciation through engaging games and lessons. The app’s AI tutor adapts to your pace and provides instant feedback to improve your speaking and listening skills. Join global leaderboards and challenge friends to test your fluency progress.",
+    "size": 77,
+    "reviews": 13200,
+    "ratingAvg": 4.6,
+    "downloads": 5600000,
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 1500 },
+      { "name": "4 star", "count": 3400 },
+      { "name": "5 star", "count": 7000 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/tuBEDUMwkWptndJsDiCU2apVRWycdPTDUEKzhjAE3GItaMrHLUOJzscnTxregIl9cg",
+    "title": "DriveGuard",
+    "companyName": "SafeTrip Technologies",
+    "id": 20,
+    "description": "DriveGuard is your digital co-pilot for safe driving. It tracks your route, monitors speed, and detects sudden braking or collisions in real time. The app offers road safety tips, trip summaries, and AI-powered driver scoring. With emergency alerts and GPS tracking, DriveGuard ensures you and your loved ones stay protected on every journey.",
+    "size": 61,
+    "reviews": 8900,
+    "ratingAvg": 4.5,
+    "downloads": 3100000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 2800 },
+      { "name": "5 star", "count": 3900 }
+    ]
+  },
+  {
+    "image": "https://hotmart.s3.amazonaws.com/product_pictures/b4e3d156-0031-4276-9780-3c98dc38c2dd/Designsemnome2.jpg",
+    "title": "MindEase",
+    "companyName": "TranquilMind Studio",
+    "id": 21,
+    "description": "MindEase helps you manage stress, anxiety, and emotional balance through guided meditation, mindfulness exercises, and mood tracking. The app offers daily affirmations, breathing sessions, and calming soundscapes. Track your emotional health progress and get AI-driven suggestions to improve your well-being over time. MindEase is your daily pocket companion for mental peace.",
+    "size": 59,
+    "reviews": 9700,
+    "ratingAvg": 4.8,
+    "downloads": 4200000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 2200 },
+      { "name": "5 star", "count": 6000 }
+    ]
+  },
+  {
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/96/d7/9d/96d79d47-ccc6-7184-3ae3-949814a635a5/AppIcon-0-1x_U007epad-0-1-85-220-0.png/256x256bb.jpg",
+    "title": "QuickNote AI",
+    "companyName": "InnovaSoft",
+    "id": 22,
+    "description": "QuickNote AI is a smart notepad app powered by artificial intelligence. It automatically organizes your notes, transcribes voice memos, and summarizes long text into short insights. With handwriting recognition and cloud sync, you can access your ideas anywhere. Perfect for students, writers, and professionals who want to capture thoughts instantly.",
+    "size": 43,
+    "reviews": 6800,
+    "ratingAvg": 4.5,
+    "downloads": 2100000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 800 },
+      { "name": "4 star", "count": 2200 },
+      { "name": "5 star", "count": 3100 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/zMLXsAJdXggqSSgJmaMTEP4BNfwrNEVbA5aDh9oHLSumCzMJA8NAOy-WW8nbj2TP84bWGSOPUKeHGUaTuRrDBA=w240-h480-rw",
+    "title": "SecureVault",
+    "companyName": "CyberSafe Labs",
+    "id": 23,
+    "description": "SecureVault protects your passwords, files, and sensitive data using top-tier encryption. Store credentials safely, auto-fill login forms, and generate strong passwords instantly. The app supports biometric authentication and encrypted cloud backup. With SecureVault, your digital identity stays safe from hackers and breaches at all times.",
+    "size": 52,
+    "reviews": 8700,
+    "ratingAvg": 4.7,
+    "downloads": 2500000,
+    "ratings": [
+      { "name": "1 star", "count": 250 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 700 },
+      { "name": "4 star", "count": 2400 },
+      { "name": "5 star", "count": 4950 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/KMrGLzWSZRfhX84EN8am7_fjoN17wuxmLMw-A5sX9chF1V6oR2bjUN7T0Q19v7r3dBw6=w240-h480-rw",
+    "title": "PetCare",
+    "companyName": "FurFriends Co.",
+    "id": 24,
+    "description": "PetCare helps you take better care of your pets with reminders, diet tracking, and health monitoring. Manage vaccination schedules, vet appointments, and grooming plans in one place. The app also includes a pet social community to connect with other pet owners. Keep your furry friends happy and healthy with PetCare.",
+    "size": 47,
+    "reviews": 5200,
+    "ratingAvg": 4.3,
+    "downloads": 1800000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 800 },
+      { "name": "4 star", "count": 1800 },
+      { "name": "5 star", "count": 2000 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYEPugPFzapylJo1XXmyiOHRDAXw9A6po40A&s",
+    "title": "CraftWorld",
+    "companyName": "GameVibe Studios",
+    "id": 25,
+    "description": "CraftWorld lets you build, explore, and survive in an endless sandbox universe. Create your dream structures, craft tools, and battle monsters in exciting adventures. With multiplayer mode, you can play with friends and share your creations globally. CraftWorld combines creativity, exploration, and survival in one thrilling experience.",
+    "size": 133,
+    "reviews": 19800,
+    "ratingAvg": 4.6,
+    "downloads": 18000000,
+    "ratings": [
+      { "name": "1 star", "count": 1200 },
+      { "name": "2 star", "count": 1500 },
+      { "name": "3 star", "count": 2700 },
+      { "name": "4 star", "count": 5200 },
+      { "name": "5 star", "count": 11100 }
+    ]
+  },
+  {
+    "image": "https://coeurdeville.mu/sites/default/files/logos/SH_Logo%20%282%29-1.png",
+    "title": "StyleHub",
+    "companyName": "Trendify Global",
+    "id": 26,
+    "description": "StyleHub is your fashion assistant — discover trends, get outfit ideas, and shop the latest collections. Try virtual fitting using AR technology and receive daily style tips. Save favorite looks, follow top influencers, and find clothes that match your personality. With StyleHub, your wardrobe stays always on point.",
+    "size": 69,
+    "reviews": 9100,
+    "ratingAvg": 4.4,
+    "downloads": 4100000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 700 },
+      { "name": "3 star", "count": 1400 },
+      { "name": "4 star", "count": 3000 },
+      { "name": "5 star", "count": 3600 }
+    ]
+  },
+  {
+    "image": "https://st.depositphotos.com/1034557/1238/i/950/depositphotos_12383277-stock-photo-news-sphere.jpg",
+    "title": "NewsSphere",
+    "companyName": "InfoStream Media",
+    "id": 27,
+    "description": "NewsSphere delivers breaking news and trending stories from trusted global sources. Customize your feed by category — politics, sports, entertainment, or tech. The app’s AI engine curates balanced perspectives, while offline reading and text-to-speech ensure convenience anytime. Stay informed with NewsSphere — your smart daily briefing app.",
+    "size": 54,
+    "reviews": 10200,
+    "ratingAvg": 4.5,
+    "downloads": 5200000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 1100 },
+      { "name": "4 star", "count": 2700 },
+      { "name": "5 star", "count": 5500 }
+    ]
+  },
+  {
+    "image": "https://pbs.twimg.com/profile_images/1866397029410197504/3T_P-pby_400x400.jpg",
+    "title": "RideNow",
+    "companyName": "UrbanMobility Ltd.",
+    "id": 28,
+    "description": "RideNow makes commuting easier with affordable rides at your fingertips. Choose from bikes, cars, or auto-rickshaws and get instant pickup within minutes. The app ensures transparent pricing, live tracking, and secure digital payments. With features like driver ratings, SOS alerts, and route sharing, RideNow guarantees a safe and reliable travel experience.",
+    "size": 81,
+    "reviews": 17800,
+    "ratingAvg": 4.3,
+    "downloads": 9800000,
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 1200 },
+      { "name": "3 star", "count": 2000 },
+      { "name": "4 star", "count": 4800 },
+      { "name": "5 star", "count": 9000 }
+    ]
+  }
+]
