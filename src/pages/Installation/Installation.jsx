@@ -59,7 +59,7 @@ function Installation() {
 
         <div className="dropdown dropdown-start">
           <div tabIndex={0} role="button" className="btn m-1">
-            Sort By Downloads <IoMdArrowDropdownCircle />
+            Sort By Size <IoMdArrowDropdownCircle />
           </div>
           <ul
             tabIndex={0}
