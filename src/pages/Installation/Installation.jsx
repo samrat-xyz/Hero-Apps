@@ -3,6 +3,7 @@ import { useLoaderData } from "react-router";
 import { getStoreInstalledApp, removeFromStore } from "../../utility/addToDB";
 import InstalledApp from "./InstalledApp";
 import { IoMdArrowDropdownCircle } from "react-icons/io";
+import { toast } from "react-toastify";
 
 function Installation() {
   const data = useLoaderData();
@@ -17,6 +18,7 @@ function Installation() {
   }, [data]);
 
   const removeApp = (id) => {
+    toast("Uninstalled App")
     const updatedList = appList.filter((app) => app.id !== id);
     setAppList(updatedList);
     removeFromStore(id);

@@ -14,6 +14,7 @@ import ratingIcon from "../../assets/icon-ratings.png";
 import reviewIcon from "../../assets/icon-review.png";
 import { addToStoreDB } from "../../utility/addToDB";
 import { getStoreInstalledApp } from "../../utility/addToDB";
+import { toast } from "react-toastify";
 
 function AppDetails() {
   const appDetails = useLoaderData();
@@ -46,6 +47,7 @@ function AppDetails() {
   }, [appId]);
 
   const handleInstalled = (id) => {
+    toast("App Installed Successfully");
     addToStoreDB(id);
     setIsInstalled(true);
   };
