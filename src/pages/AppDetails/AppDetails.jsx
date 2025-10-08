@@ -53,11 +53,11 @@ function AppDetails() {
   return (
     <div>
       <div className="card lg:card-side bg-base-100 shadow-sm container mx-auto my-5 gap-3 p-2">
-        <figure>
+        <figure className="w-94 p-3">
           <img
             src={image}
             alt={title}
-            className="w-56 h-auto rounded-xl object-cover"
+            className="w-full h-auto rounded-xl object-cover"
           />
         </figure>
 
