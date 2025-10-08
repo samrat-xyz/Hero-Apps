@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router";
 import {
   BarChart,
@@ -12,12 +12,15 @@ import {
 import downloadIcon from "../../assets/icon-downloads.png";
 import ratingIcon from "../../assets/icon-ratings.png";
 import reviewIcon from "../../assets/icon-review.png";
+import { addToStoreDB } from "../../utility/addToDB";
+import { getStoreInstalledApp } from "../../utility/addToDB";
 
 function AppDetails() {
   const appDetails = useLoaderData();
   const { id } = useParams();
+  const appId = parseInt(id);
 
-  const singleData = appDetails.find((d) => d.id === parseInt(id));
+  const singleData = appDetails.find((d) => d.id === appId);
 
   const {
     image,
@@ -32,6 +35,20 @@ function AppDetails() {
   } = singleData;
 
   const reversedRatings = [...ratings].reverse();
+
+  const [isInstalled, setIsInstalled] = useState(false);
+
+  useEffect(() => {
+    const installedApps = getStoreInstalledApp();
+    if (installedApps.includes(appId)) {
+      setIsInstalled(true);
+    }
+  }, [appId]);
+
+  const handleInstalled = (id) => {
+    addToStoreDB(id);
+    setIsInstalled(true);
+  };
 
   return (
     <div>
@@ -65,14 +82,24 @@ function AppDetails() {
             </div>
           </div>
 
-          <button className="px-6 py-3 bg-[#00D390] text-white font-semibold rounded-lg mt-3 hover:bg-[#00b57e]">
-            Install Now ({size} MB)
+          <button
+            onClick={() => handleInstalled(appId)}
+            disabled={isInstalled}
+            className={`px-6 py-3 font-semibold rounded-lg mt-3 ${
+              isInstalled
+                ? "bg-gray-400 text-gray-700 cursor-not-allowed"
+                : "bg-[#00D390] text-white hover:bg-[#00b57e]"
+            }`}
+          >
+            {isInstalled ? "Installed" : `Install Now (${size} MB)`}
           </button>
         </div>
       </div>
 
       <div className="mt-10 container mx-auto">
-        <h3 className="text-2xl font-semibold text-gray-700 mb-3 pl-6">Ratings</h3>
+        <h3 className="text-2xl font-semibold text-gray-700 mb-3 pl-6">
+          Ratings
+        </h3>
         <ResponsiveContainer width="100%" height={280}>
           <BarChart
             data={reversedRatings}
@@ -92,8 +119,9 @@ function AppDetails() {
           </BarChart>
         </ResponsiveContainer>
       </div>
+
       <div className="container mx-auto my-3 p-4">
-        <p className="text-md text-[#627382]">Description{description}</p>
+        <p className="text-md text-[#627382]">Description: {description}</p>
       </div>
     </div>
   );
