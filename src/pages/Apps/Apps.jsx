@@ -1,15 +1,28 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useLoaderData } from "react-router";
 import AllApp from "../../components/AllApps/AllApp";
 import AppNotFound from "../../ErrorPage/AppNotFound";
+import Loading from "../../components/Loading/Loading";
 
 function Apps() {
   const apps = useLoaderData();
   const [searchApp, setSearchApp] = useState("");
+  const [filteredApps, setFilteredApps] = useState(apps);
+  const [isSearching, setIsSearching] = useState(false);
 
-  const filteredApps = apps.filter((app) =>
-    app.title.toLowerCase().includes(searchApp.toLowerCase())
-  );
+  useEffect(() => {
+    setIsSearching(true);
+
+    const delay = setTimeout(() => {
+      const result = apps.filter((app) =>
+        app.title.toLowerCase().includes(searchApp.toLowerCase())
+      );
+      setFilteredApps(result);
+      setIsSearching(false);
+    }, 500); 
+
+    return () => clearTimeout(delay);
+  }, [searchApp, apps]);
 
   return (
     <div className="my-8 mx-auto container">
@@ -35,15 +48,21 @@ function Apps() {
         </fieldset>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 container mx-auto gap-8 px-3">
-        {filteredApps.length > 0 ? (
-          filteredApps.map((app) => <AllApp app={app} key={app.id} />)
-        ) : (
-          <div className="col-span-full">
-            <AppNotFound />
-          </div>
-        )}
-      </div>
+      {isSearching ? (
+        <div className="flex justify-center items-center h-[50vh]">
+          <Loading />
+        </div>
+      ) : filteredApps.length > 0 ? (
+        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 container mx-auto gap-8 px-3">
+          {filteredApps.map((app) => (
+            <AllApp app={app} key={app.id} />
+          ))}
+        </div>
+      ) : (
+        <div className="col-span-full">
+          <AppNotFound />
+        </div>
+      )}
     </div>
   );
 }
