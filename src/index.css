@@ -2,3 +2,21 @@
 @plugin "daisyui" {
   themes: light --default, dark --prefersdark;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body{
+    font-family: "Inter", sans-serif;
+}
+
+.active-link {
+  @apply text-[#632EE3] font-bold border-b-2 border-[#632EE3];
+}
+
+.inactive-link {
+  @apply hover:text-[#632EE3];
+}
+
+.store-link{
+  @apply px-6 font-bold border-2 flex items-center gap-2 rounded-lg border-gray-300;
+}
