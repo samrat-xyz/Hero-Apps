@@ -72,7 +72,7 @@ function AppDetails() {
       </div>
 
       <div className="mt-10 container mx-auto">
-        <h3 className="text-2xl font-semibold text-gray-700 mb-3">Ratings</h3>
+        <h3 className="text-2xl font-semibold text-gray-700 mb-3 pl-6">Ratings</h3>
         <ResponsiveContainer width="100%" height={280}>
           <BarChart
             data={reversedRatings}
