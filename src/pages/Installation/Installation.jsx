@@ -7,8 +7,7 @@ import { IoMdArrowDropdownCircle } from "react-icons/io";
 function Installation() {
   const data = useLoaderData();
   const [appList, setAppList] = useState([]);
-  const [sortType, setSortType] = useState(""); // high-low or low-high
-  const [showDefaultText, setShowDefaultText] = useState(true); // show/hide "Sort By Size"
+  const [sortType, setSortType] = useState(""); 
 
   useEffect(() => {
     const storeAppData = getStoreInstalledApp();
@@ -18,23 +17,30 @@ function Installation() {
   }, [data]);
 
   const removeApp = (id) => {
-    const appFilter = appList.filter((app) => app.id !== id);
-    setAppList(appFilter);
+    const updatedList = appList.filter((app) => app.id !== id);
+    setAppList(updatedList);
     removeFromStore(id);
   };
 
-  // Sort handler
+  const parseDownloads = (downloads) => {
+    let num = parseFloat(downloads);
+    if (downloads.toUpperCase().includes("M")) {
+      num *= 1000000;
+    } 
+    return num;
+  };
+
   const handleSort = (type) => {
     setSortType(type);
-    setShowDefaultText(false);
-
-    let sortedList = [...appList];
-    if (type === "high-low") {
-      sortedList.sort((a, b) => parseFloat(b.size) - parseFloat(a.size));
-    } else if (type === "low-high") {
-      sortedList.sort((a, b) => parseFloat(a.size) - parseFloat(b.size));
-    }
-    setAppList(sortedList);
+    setAppList((prevList) => {
+      const sortedList = [...prevList];
+      if (type === "high-low") {
+        sortedList.sort((a, b) => parseDownloads(b.downloads) - parseDownloads(a.downloads));
+      } else if (type === "low-high") {
+        sortedList.sort((a, b) => parseDownloads(a.downloads) - parseDownloads(b.downloads));
+      }
+      return sortedList;
+    });
   };
 
   return (
@@ -47,36 +53,21 @@ function Installation() {
       </div>
 
       <div className="flex items-center justify-between container mx-auto p-3">
-        <h3 className="text-xl font-bold">
-          ({appList.length}) Apps Found
-        </h3>
+        <h3 className="text-xl font-bold">({appList.length}) Apps Found</h3>
 
         <div className="dropdown dropdown-start">
-          <div tabIndex={0} role="button" className="btn m-1 flex items-center gap-2">
-            {showDefaultText ? (
-              <div className="flex items-center gap-2">
-                Sort By Size <IoMdArrowDropdownCircle />
-              </div>
-            ) : sortType === "high-low" ? (
-              <p>Sorted: High → Low</p>
-            ) : sortType === "low-high" ? (
-              <p>Sorted: Low → High</p>
-            ) : null}
+          <div tabIndex={0} role="button" className="btn m-1">
+            Sort By Downloads <IoMdArrowDropdownCircle />
           </div>
-
           <ul
             tabIndex={0}
-            className="dropdown-content menu bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm"
+            className="dropdown-content menu bg-base-100 rounded-box z-10 w-52 p-2 shadow-sm"
           >
             <li>
-              <button onClick={() => handleSort("high-low")}>
-                High → Low
-              </button>
+              <a onClick={() => handleSort("high-low")}>High-Low</a>
             </li>
             <li>
-              <button onClick={() => handleSort("low-high")}>
-                Low → High
-              </button>
+              <a onClick={() => handleSort("low-high")}>Low-High</a>
             </li>
           </ul>
         </div>
