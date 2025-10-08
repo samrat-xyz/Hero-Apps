@@ -57,7 +57,7 @@ function AppDetails() {
           <img
             src={image}
             alt={title}
-            className="w-64 h-auto rounded-xl object-cover"
+            className="w-56 h-auto rounded-xl object-cover"
           />
         </figure>
 
